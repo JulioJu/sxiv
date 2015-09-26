@@ -89,7 +89,9 @@ of small previews is displayed, making it easy to choose an image to open.
     -z ZOOM      Set zoom level to ZOOM percent
 
 **Key mappings for keyboard layout Dvorak fr (bépo) :**
+
     For keyboard layout bépo see http://bepo.fr or in english https://en.wikipedia.org/wiki/Keyboard_layout#B.C3.89PO
+    See also http://bepo.fr/wiki/Vim#Visionneuse_d.27image_Sxiv
     
     0-9          Prefix the next command with a number (denoted via [count])
     q            Quit sxiv

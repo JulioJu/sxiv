@@ -88,8 +88,9 @@ of small previews is displayed, making it easy to choose an image to open.
     -Z           Same as `-z 100'
     -z ZOOM      Set zoom level to ZOOM percent
 
-**Key mappings:**
-
+**Key mappings for keyboard layout Dvorak fr (bépo) :**
+    For keyboard layout bépo see http://bepo.fr or in english https://en.wikipedia.org/wiki/Keyboard_layout#B.C3.89PO
+    
     0-9          Prefix the next command with a number (denoted via [count])
     q            Quit sxiv
     Return       Switch to thumbnail mode / open selected image
@@ -98,9 +99,9 @@ of small previews is displayed, making it easy to choose an image to open.
     Ctrl-x       Send the next key to the external key-handler
     g            Go to first image
     G            Go to the last image, or image number [count]
-    r            Reload image
+    h            Reload image
     D            Remove image from file list and go to next image
-    Ctrl-h,j,k,l Scroll one window width/height left/down/up/right
+    Ctrl-c,t,s,r Scroll one window width/height left/down/up/right
     +            Zoom in
     -            Zoom out
     m            Mark/unmark current image
@@ -124,9 +125,9 @@ of small previews is displayed, making it easy to choose an image to open.
     [,]          Go [count] * 10 images backward/forward
     Ctrl-n,p     Go to the next/previous frame of a multi-frame image
     Ctrl-Space   Play/stop animations of multi-frame images
-    h,j,k,l      Scroll image 1/5 of window width/height or [count] pixels
+    c,t,s,r      Scroll image 1/5 of window width/height or [count] pixels
                  left/down/up/right (also with arrow keys)
-    H,J,K,L      Scroll to left/bottom/top/right image edge
+    C,T,S,R  Scroll to left/bottom/top/right image edge
     =            Set zoom level to 100%, or [count]%
     w            Set zoom level to 100%, but fit large images into window
     W            Fit image to window
@@ -137,7 +138,7 @@ of small previews is displayed, making it easy to choose an image to open.
     |,_          Flip image horizontally/vertically
     a            Toggle anti-aliasing
     A            Toggle visibility of alpha-channel, i.e. transparency
-    s            Toggle slideshow or set delay to [count] seconds
+    k            Toggle slideshow or set delay to [count] seconds
 
 
 **Mouse button mappings:**

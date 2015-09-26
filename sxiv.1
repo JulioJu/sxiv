@@ -93,7 +93,7 @@ The same as `\-z 100'.
 .BI "\-z " ZOOM
 Set zoom level to ZOOM percent.
 .SH GENERAL KEYBOARD COMMANDS
-The following keyboard commands are available in both image and thumbnail mode:
+The following keyboard commands are available in both image and thumbnail mode. It's customized for keyboard layout bepo.
 .TP
 .BR 0 \- 9
 Prefix the next command with a number (denoted via
@@ -122,22 +122,22 @@ Go to the first image.
 Go to the last image, or image number
 .IR count .
 .TP
-.B r
+.B h
 Reload image.
 .TP
 .B D
 Remove current image from file list and go to next image.
 .TP
-.BR Ctrl-h ", " Ctrl-Left
+.BR Ctrl-c ", " Ctrl-Left
 Scroll left one screen width.
 .TP
-.BR Ctrl-j ", " Ctrl-Down
+.BR Ctrl-t ", " Ctrl-Down
 Scroll down one screen height.
 .TP
-.BR Ctrl-k ", " Ctrl-Up
+.BR Ctrl-s ", " Ctrl-Up
 Scroll up one screen height.
 .TP
-.BR Ctrl-l ", " Ctrl-Right
+.BR Ctrl-r ", " Ctrl-Right
 Scroll right one screen width.
 .TP
 .BR +
@@ -180,27 +180,27 @@ Reset gamma correction.
 .SH THUMBNAIL KEYBOARD COMMANDS
 The following keyboard commands are only available in thumbnail mode:
 .TP
-.BR h ", " Left
+.BR c ", " Left
 Move selection left
 .I count
 times.
 .TP
-.BR j ", " Down
+.BR t ", " Down
 Move selection down
 .I count
 times.
 .TP
-.BR k ", " Up
+.BR s ", " Up
 Move selection up
 .I count
 times.
 .TP
-.BR l ", " Right
+.BR r ", " Right
 Move selection right
 .I count
 times.
 .TP
-.B R
+.B H
 Reload all thumbnails.
 .SH IMAGE KEYBOARD COMMANDS
 The following keyboard commands are only available in image mode:
@@ -237,36 +237,36 @@ Go to the previous frame of a multi-frame image.
 Play/stop animations of multi-frame images.
 .SS Panning
 .TP
-.BR h ", " Left
+.BR c ", " Left
 Scroll image 1/5 of window width or
 .I count
 pixel left.
 .TP
-.BR j ", " Down
+.BR t ", " Down
 Scroll image 1/5 of window height or
 .I count
 pixel down.
 .TP
-.BR k ", " Up
+.BR s ", " Up
 Scroll image 1/5 of window height or
 .I count
 pixel up.
 .TP
-.BR l ", " Right
+.BR r ", " Right
 Scroll image 1/5 of window width or
 .I count
 pixel right.
 .TP
-.B H
+.B C
 Scroll to left image edge.
 .TP
-.B J
+.B T
 Scroll to bottom image edge.
 .TP
-.B K
+.B S
 Scroll to top image edge.
 .TP
-.B L
+.B R
 Scroll to right image edge.
 .SS Zooming
 .TP
@@ -310,7 +310,7 @@ Toggle anti-aliasing.
 .B A
 Toggle visibility of alpha-channel, i.e. image transparency.
 .TP
-.B s
+.B k
 Toggle slideshow mode and/or set the delay between images to
 .I count
 seconds.
@@ -394,6 +394,7 @@ Bert Muennich   <ber.t at posteo.de>
 Bastien Dejean  <nihilhill at gmail.com>
 Dave Reisner    <d at falconindy.com>
 Fung SzeTat     <sthorde at gmail.com>
+Juanes Espinel <juanes0890 at gmail.com>
 .EE
 .SH HOMEPAGE
 .EX

@@ -2,6 +2,7 @@ VERSION   := git-20150819
 
 PREFIX    := /usr/local
 MANPREFIX := $(PREFIX)/share/man
+DESTDIRICON := /usr/share/icons/hicolor
 
 CC        ?= gcc
 CFLAGS    += -std=c99 -Wall -pedantic
@@ -52,8 +53,12 @@ install: all
 	mkdir -p $(DESTDIR)$(PREFIX)/share/sxiv/exec
 	cp exec/* $(DESTDIR)$(PREFIX)/share/sxiv/exec/
 	chmod 755 $(DESTDIR)$(PREFIX)/share/sxiv/exec/*
+	cp sxiv.desktop /usr/share/applications/
+	cd icon/ &&  cp 128x128.png $(DESTDIRICON)/128x128/apps/sxiv.png &&  cp 32x32.png $(DESTDIRICON)/32x32/apps/sxiv.png &&  cp 48x48.png $(DESTDIRICON)/48x48/apps/sxiv.png &&  cp 64x64.png $(DESTDIRICON)/64x64/apps/sxiv.png &&  cp 16x16.png $(DESTDIRICON)/16x16/apps/sxiv.png && cd ../
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/sxiv
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/sxiv.1
 	rm -rf $(DESTDIR)$(PREFIX)/share/sxiv
+	rm -f /usr/share/applications/sxiv.desktop
+	rm -f $(DESTDIRICON)/128x128/apps/sxiv.png &&rm -f $(DESTDIRICON)/32x32/apps/sxiv.png && rm -f $(DESTDIRICON)/48x48/apps/sxiv.png && rm -f $(DESTDIRICON)/64x64/apps/sxiv.png &&  rm -f $(DESTDIRICON)/16x16/apps/sxiv.png

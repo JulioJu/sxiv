@@ -90,8 +90,7 @@ of small previews is displayed, making it easy to choose an image to open.
 
 **Key mappings for keyboard layout bépo :**
     
-    Bépo is a keyboard layout in the spirit of Dvorak for french speakers 
-    See also http://bepo.fr/wiki/Vim#Visionneuse_d.27image_Sxiv.
+Bépo is a keyboard layout in the spirit of Dvorak for french speakers. See also http://bepo.fr/wiki/Vim#Visionneuse_d.27image_Sxiv.
     
     0-9          Prefix the next command with a number (denoted via [count])
     q            Quit sxiv

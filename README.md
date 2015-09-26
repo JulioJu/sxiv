@@ -43,9 +43,6 @@ sxiv is built using the commands:
     # make install
     # sudo cp sxiv.desktop /usr/share/applications/
 
-Note : sxiv ne peut pas être ouvert seul, il doit obligatoirement être ouvert en ligne de commande avec un nom de fichier spécifié. Pour pouvoir ouvrir une image en mode graphique (en double cliquant deçus), if faut procéder à la modification suivante :
-<br>    Dans le fichier /usr/share/applications/sxiv.desktop, ajouter un « # » devant « NoDisplay » (ligne 8).
-
 Please note, that the latter one requires root privileges.
 By default, sxiv is installed using the prefix "/usr/local", so the full path
 of the executable will be "/usr/local/bin/sxiv".

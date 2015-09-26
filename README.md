@@ -41,7 +41,6 @@ sxiv is built using the commands:
 
     $ make
     # make install
-    # sudo cp sxiv.desktop /usr/share/applications/
 
 Please note, that the latter one requires root privileges.
 By default, sxiv is installed using the prefix "/usr/local", so the full path

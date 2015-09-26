@@ -164,6 +164,8 @@ on GitHub or get a copy using git with the following command:
 
 **Stable releases**
 
+** Forked 26/09/2015
+
 **[v1.3.1](https://github.com/muennich/sxiv/archive/v1.3.1.tar.gz)**
 *(November 16, 2014)*
 
